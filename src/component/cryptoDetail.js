@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Typography, Col } from 'antd';
+
 
 import useAxios from './axios';
 import Skeleton from './skeleton'
-
-const { Title, Text } = Typography;
 
 const CryptoDetails = () => {
   const { uuid } = useParams();

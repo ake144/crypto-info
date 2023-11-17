@@ -4,7 +4,7 @@ import Skeleton from "./skeleton";
 import millify from 'millify';
 import { HashLink } from 'react-router-hash-link';
 
-const TopList = () => {
+export const TopList = () => {
   const [page, setPage] = useState(1); // Track the current page number
   const coinsPerPage = 20; // Define the number of coins per page
 
@@ -15,7 +15,7 @@ const TopList = () => {
     // Loading skeleton or spinner
     return (
       <div className="wrapper-container mt-8">
-        {/* Skeleton loading */}
+        <Skeleton />
       </div>
     );
   }
@@ -45,9 +45,12 @@ const TopList = () => {
       {/* See more link */}
       {response && response.length === coinsPerPage && (
         <div className="mt-4 text-center">
-          <a href="/coin" className="text-blue-500">
+             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <a href="/coin" className="text-white">
             See More
           </a>
+</button>
+     
         </div>
       )}
     </>

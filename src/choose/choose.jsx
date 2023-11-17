@@ -1,5 +1,5 @@
 import React from "react";
-
+import crypto from '../static/media/choose-main.39852b7511b28d44406f.png'
 
 const Choose=()=>{
 return(<>
