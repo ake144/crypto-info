@@ -1,4 +1,13 @@
-<<<<<<< HEAD
+
+get Live Info of Crypto Markets and Details of Each coins
+
+  Soures of crypto updates
+          #Coingecko
+
+   #react
+   #tailwind css
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
