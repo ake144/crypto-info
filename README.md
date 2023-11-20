@@ -7,6 +7,13 @@ get Live Info of Crypto Markets and Details of Each coins
    #react
    #tailwind css
 
+   
+<img width="940" alt="Screenshot 2023-11-20 073739" 
+  src="https://github.com/ake144/crypto-info/assets/122739445/89e0e2b1-0d54-4e96-a1b5-232db5a4b4df">
+<img width="941" alt="Screenshot 2023-11-20 073708" src="https://github.com/ake144/crypto-info/assets/122739445/80793742-e017-4212-86ea-5dfdd61f0630">
+
+<img width="957" alt="Screenshot 2023-11-20 073552" src="https://github.com/ake144/crypto-info/assets/122739445/4116eb44-a123-40c4-b182-e6e196ea20bc">
+
 
 # Getting Started with Create React App
 
